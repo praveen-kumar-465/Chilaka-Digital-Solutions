@@ -52,7 +52,7 @@ const services = [
   },
   {
     icon: MessageCircle,
-    title: "WhatsApp Marketing",
+    title: "WhatsApp Bulk Messaging",
     description:
       "Direct customer engagement through WhatsApp marketing campaigns that build relationships and drive sales.",
     features: ["Automated Messages", "Customer Support", "Campaign Analytics"],
