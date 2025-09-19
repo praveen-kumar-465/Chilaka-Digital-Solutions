@@ -52,11 +52,11 @@ const Header = () => {
               <img
                 src="https://res.cloudinary.com/dm94ctges/image/upload/v1758129277/LOGO_xkgxlp.jpg"
                 alt="Chilaka Digital Solutions logo"
-                className="h-10 w-10 object-contain rounded-md flex-none"
+                className="block self-center -translate-y-[4px] transform h-14 w-14 lg:h-16 lg:w-16 object-contain rounded-md flex-none"
                 loading="lazy"
               />
-              <h1 className="m-0 leading-tight text-base sm:text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">
-                Chilaka <span className="text-green-600">Digital Solutions</span>
+              <h1 className="m-0 leading-none text-base sm:text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">
+                CHILAKA <span className="text-green-600">DIGITAL SOLUTIONS</span>
               </h1>
             </a>
           </div>

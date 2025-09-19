@@ -4,10 +4,10 @@ import {
   Palette,
   TrendingUp,
   FileText,
+  Lightbulb,
   Gift,
   MessageCircle,
   Globe,
-  Layers,
   X,
 } from "lucide-react";
 
@@ -65,11 +65,11 @@ const services = [
     features: ["Responsive Design", "E-commerce", "Performance Optimization"],
   },
   {
-    icon: Layers,
-    title: "Logo Design",
+    icon: Lightbulb,
+    title: "Turning Ideas into Videos",
     description:
-      "Distinctive logo designs that represent your brand identity and leave a lasting impression on your audience.",
-    features: ["Multiple Concepts", "Vector Files", "Brand Variations"],
+      "We transform your ideas into compelling videos — from concept and script to final cut — tailored for maximum impact.",
+    features: ["Concept Development", "Script to Screen", "Fast Delivery"],
   },
 ];
 
@@ -162,8 +162,7 @@ const OurServices = () => {
             return (
               <div
                 key={index}
-                onClick={() => openModal(service.title)}
-                className={`group relative bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:-translate-y-2 cursor-pointer ${borderColor}`}
+                className={`group relative bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:-translate-y-2 ${borderColor}`}
               >
                 <div className="mb-4">
                   <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-xl flex items-center justify-center group-hover:bg-green-600 transition-colors duration-300">

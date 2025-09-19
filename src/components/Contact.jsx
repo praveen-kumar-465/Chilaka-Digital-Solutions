@@ -41,7 +41,7 @@ const Contact = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(formData), 
         mode: "no-cors", // avoids CORS errors
       });
 
@@ -182,11 +182,13 @@ const Contact = () => {
                     >
                       <option value="">Select a service</option>
                       <option value="AI CGI Video Ads">AI CGI Video Ads</option>
+                      <option value="AI CGI Video Ads">Product Video Ads</option>
+                      <option value="AI CGI Video Ads">Political campaign Videos</option>
                       <option value="Branding & Design">Branding & Design</option>
                       <option value="Digital Marketing">Digital Marketing</option>
                       <option value="Web Development">Web Development</option>
-                      <option value="WhatsApp Marketing">WhatsApp Marketing</option>
-                      <option value="Support">Support</option>
+                      <option value="WhatsApp Marketing">WhatsApp bulk messaging</option>
+                      <option value="Support">Content Creation</option>
                     </select>
                   </div>
 
