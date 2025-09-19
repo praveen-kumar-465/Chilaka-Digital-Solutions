@@ -247,7 +247,7 @@ const Contact = () => {
                     +91 8919170320
                   </a>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Mon-Fri 9AM-6PM IST
+                  Available 24/7
                   </p>
                 </div>
               </div>
@@ -265,7 +265,7 @@ const Contact = () => {
                     chilakapraveenkumar@gmail.com
                   </a>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    We'll respond within 24 hours
+                    We'll respond within few hours
                   </p>
                 </div>
               </div>
@@ -289,22 +289,7 @@ const Contact = () => {
               </div>
 
               {/* Working Hours */}
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <Clock className="w-6 h-6 text-green-600" />
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    Working Hours
-                  </h3>
-                </div>
-                <div className="space-y-3">
-                  {workingHours.map((schedule, index) => (
-                    <div key={index} className="flex justify-between">
-                      <span className="text-gray-600 dark:text-gray-400">{schedule.day}</span>
-                      <span className="text-gray-900 dark:text-white">{schedule.hours}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
+              
             </div>
 
             {/* Quick Response Banner */}
