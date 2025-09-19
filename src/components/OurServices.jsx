@@ -211,7 +211,7 @@ const OurServices = () => {
               We specialize in custom solutions. Let's discuss how we can help
               bring your unique vision to life.
             </p>
-            <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-xl font-medium transition-all duration-200 hover:scale-105">
+            <button onClick={() => window.open('tel:+918919170320')} className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-xl font-medium transition-all duration-200 hover:scale-105">
               Let's Talk Custom Solutions
             </button>
           </div>
