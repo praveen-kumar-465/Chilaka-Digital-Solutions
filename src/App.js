@@ -57,12 +57,12 @@ const Home = () => {
   return (
     <div className="min-h-screen overflow-x-hidden bg-white dark:bg-gray-900 transition-colors duration-300">
       <Header />
-      <Reveal direction="left"><Hero /></Reveal>
-      <Reveal direction="right"><About /></Reveal>
-      <Reveal direction="left"><OurServices /></Reveal>
-      <Reveal direction="right"><Studio /></Reveal>
-      <Reveal direction="left"><Portfolio /></Reveal>
-      <Reveal direction="right"><Reviews /></Reveal>
+      <Hero />
+      <About />
+      <OurServices />
+      <Studio />
+      <Portfolio />
+      <Reviews />
       <Footer />
     </div>
   );
